@@ -12,6 +12,7 @@
         }
     ],
     "require": {
+        "johnpbloch/wordpress": "5.8.0",
         "htmlburger/carbon-fields": "^3.0"
     },
     "autoload": {
