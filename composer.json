@@ -1,0 +1,25 @@
+{
+    "name": "peterkracik/carbon-field-brightcove",
+    "description": "Carbon Fields extension, that adds a brightcove field type.",
+    "keywords": ["wordpress", "carbon-field", "carbon-field-brightcove"],
+    "homepage": "https://kracik.sk",
+    "type": "library",
+    "license": "GPL-2.0+",
+    "authors": [
+        {
+            "name": "Peter Kracik",
+            "email": "peter@kracik.sk"
+        }
+    ],
+    "require": {
+        "htmlburger/carbon-fields": "^3.0"
+    },
+    "autoload": {
+        "files": [
+            "field.php"
+        ],
+        "psr-4": {
+            "Carbon_Field_Brightcove\\": "core/"
+        }
+    }
+}
